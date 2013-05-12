@@ -2,6 +2,16 @@
     "name": "sip/dynamic-connection-bundle",
     "type": "symfony-bundle",
     "description": "Allows you to enable/disable bundles via the command line",
+    "keywords": ["bundles", "dynamic", "sonataAdmin"],
+    "homepage": "https://github.com/SIProject/SIPDynamicConnectionBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilya Sukhinin",
+            "email": "iljasuhinin@gmail.com",
+            "homepage": "https://github.com/iljaSuhinin"
+        }
+    ],
     "require": {
         "sonata-project/admin-bundle": "*"
     },
