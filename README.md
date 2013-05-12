@@ -81,4 +81,4 @@ public function registerBundles()
 6. Bundle settings in SonataAdmin backend:
 ------------------------------------------
 
-[![bundle_settings](/SIProject/SIPDynamicConnectionBundle/tree/master/Resources/doc/bundle_settings.png)]
+![bundle_settings](/Resources/doc/bundle_settings.png)
