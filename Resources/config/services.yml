@@ -1,0 +1,7 @@
+parameters:
+    sip_dynamic_connection.generator.class: SIP\DynamicConnectionBundle\Generator\Generator
+
+services:
+    sip_dynamic_connection.generator:
+        class: %sip_dynamic_connection.generator.class%
+        arguments: [@service_container]

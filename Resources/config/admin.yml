@@ -1,0 +1,9 @@
+parameters:
+    sip.dynamic_connection.bundle.admin.class: SIP\DynamicConnectionBundle\Admin\BundleAdmin
+
+services:
+    sip.dynamic_connection.bundle.admin:
+        class: %sip.dynamic_connection.bundle.admin.class%
+        tags:
+            - { name: sonata.admin, manager_type: orm, audit: false, group: Bundles, label: Bundles }
+        arguments: [null, SIP\DynamicConnectionBundle\Entity\Bundle, SonataAdminBundle:CRUD, @sonata.admin.pool]
