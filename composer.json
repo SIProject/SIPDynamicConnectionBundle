@@ -1,0 +1,12 @@
+{
+    "name": "sip/dynamic-connection-bundle",
+    "type": "symfony-bundle",
+    "description": "Allows you to enable/disable bundles via the command line",
+    "require": {
+        "sonata-project/admin-bundle": "*"
+    },
+    "autoload": {
+        "psr-0": { "SIP\\DynamicConnectionBundle": "" }
+    },
+    "target-dir": "SIP/DynamicConnectionBundle"
+}
