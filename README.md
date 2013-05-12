@@ -1,6 +1,8 @@
 Dynamic enable bundles
 ======================
 
+[![Build Status](https://travis-ci.org/SIProject/SIPDynamicConnectionBundle.png)](https://travis-ci.org/SIProject/SIPDynamicConnectionBundle)
+
 Allows you to enable/disable bundles via the command line
 
 Installation
